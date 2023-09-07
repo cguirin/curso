@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.30), rgba(5, 7, 12, 0.30)), url(../imagen/fondo.webp);
+    background-size: cover;
+    font-size: 20px;
+
+}
+
+/* HEADER */
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+
+}
+
+header {
+    background: linear-gradient(rgba(255, 132, 228, 0.5), rgba(5, 7, 12, 0.50));
+    background-size: cover;
+}
+
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+a {
+    font-size: 50px;
+    font-weight: 500px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navegadores {
+    color: aliceblue;
+}
+
+.miLink:hover {
+
+    background-color: palevioletred;
+    color: aliceblue;
+
+}
+
+/* Index */
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(226, 35, 35);
+    margin: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: darkslategray;
+    margin-bottom: 50px;
+
+}
+
+/* Conoce a Carla */
+
+.yo {
+    font-size: 20px;
+    border-style: solid;
+    border-color: darkslategray;
+    padding: 10px;
+    margin: auto;
+}
+
+
+/* Tratamiento */
+
+.tratamiento {
+    font-size: 20px;
+    color: black;
+
+}
+
+.planes {
+    font-size: 20px;
+}
+
+/* Preg. Frecuentes */
+
+.cuadro1 {
+    text-align: center;
+
+}
+
+.cuadro2 {
+    text-align: center;
+    background-color: rgb(247, 166, 136);
+
+}
+
+.cuadro3 {
+    text-align: center;
+    
+}
+
+/* Contacto */
+
+.consultorio{
+    text-align: center;
+    color:darkmagenta;
+}
+
+.maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* FOOTER */
+
+footer{
+    background: linear-gradient(rgba(255, 132, 228, 0.5), rgba(5, 7, 12, 0.50));
+    background-size: cover;
+}
+
+
+.face {
+    color: blue;
+    font-size: 20px;
+    padding: 50px;
+
+
+}
+
+.whatssap {
+    color: green;
+    font-size: 20px;
+}
+
+.volver {
+    font-size: 15px;
+
+}
+
+.derechos {
+    font-size: 10px;
+}
+
+.logowhat{
+    width: 150px;
+    position: fixed;
+    bottom:20px;
+    right: 20px;
+    cursor: pointer;
+ }
