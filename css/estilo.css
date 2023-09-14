@@ -3,23 +3,30 @@
     padding: 0;
 }
 
+
 body {
-    background: linear-gradient(rgba(5, 7, 12, 0.30), rgba(5, 7, 12, 0.30)), url(../imagen/fondo.webp);
+    background: linear-gradient(rgba(5, 7, 12, 0.30), rgba(5, 7, 12, 0.30)), 
+    url(../imagen/fondo.webp);
     background-size: cover;
     font-size: 20px;
 
 }
 
+/*Index  */
+
 /* HEADER */
+
 
 .logo {
     width: 100px;
     cursor: pointer;
-
+    
+    
 }
 
 header {
-    background: linear-gradient(rgba(255, 132, 228, 0.5), rgba(5, 7, 12, 0.50));
+    background: linear-gradient(rgba(255, 132, 228, 0.5),
+     rgba(5, 7, 12, 0.50));
     background-size: cover;
 }
 
@@ -48,7 +55,7 @@ a {
 
 }
 
-/* Index */
+/* BODY */
 
 h1 {
     text-align: center;
@@ -64,6 +71,7 @@ h2 {
     margin-bottom: 50px;
 
 }
+
 
 /* Conoce a Carla */
 
@@ -97,7 +105,8 @@ h2 {
 
 .cuadro2 {
     text-align: center;
-    background-color: rgb(247, 166, 136);
+    background: radial-gradient(ellipse 250px 100px, #a875ac, #b66450);
+    opacity: 0.8;
 
 }
 
@@ -105,6 +114,26 @@ h2 {
     text-align: center;
     
 }
+
+.enviar{
+    background-image: linear-gradient(to left, #e96443, #904e95);
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    color: #fafafa;
+    cursor: pointer;
+
+}
+
+ .borrar{
+    background-image: linear-gradient(to left, #e96443, #904e95);
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    color: #fafafa;
+    cursor: pointer;
+
+ }
 
 /* Contacto */
 
@@ -117,14 +146,18 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
     
 }
 
 
 /* FOOTER */
 
+
 footer{
-    background: linear-gradient(rgba(255, 132, 228, 0.5), rgba(5, 7, 12, 0.50));
+
+    background: linear-gradient(rgba(255, 132, 228, 0.5), 
+    rgba(5, 7, 12, 0.50));
     background-size: cover;
 }
 
@@ -150,6 +183,7 @@ footer{
 .derechos {
     font-size: 10px;
 }
+
 
 .logowhat{
     width: 150px;
