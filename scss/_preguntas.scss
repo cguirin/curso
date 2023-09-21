@@ -7,7 +7,7 @@
 .cuadro2 {
   text-align: $text-align;
   background: radial-gradient(ellipse 250px 100px, #a875ac, #b66450);
-  opacity: $opacity;
+  opacity: 0.9;
 }
 
 .cuadro3 {
@@ -31,7 +31,7 @@
 .pregfr {
   background: linear-gradient(rgba(5, 7, 12, 0.05), rgba(5, 7, 12, 0.1)), url(../imagen/fondoagua.jpg);
   background-size: 100%;
-  opacity: $opacity;
+  opacity: 0.9;
   padding: $padding;
   margin: $margin ;
 }

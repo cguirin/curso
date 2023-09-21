@@ -47,7 +47,7 @@ a {
 .tipos {
   background: linear-gradient(rgba(5, 7, 12, 0.3), rgba(5, 7, 12, 0.3)), url(../imagen/manzana.jpg);
   background-size: 10%;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: auto;
 }
 
@@ -62,18 +62,27 @@ a {
 }
 
 .faq {
-  font-size: 40px;
+  font-size: 50px;
   color: rgb(10, 76, 119);
 }
 
 .pPreguntas {
-  color: white;
+  color: aliceblue;
 }
 
 .sobreMi {
-  font-size: 40px;
+  font-size: 50px;
   color: rgb(159, 243, 243);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.carla {
+  width: 270px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
 }
 
 .imagenes:hover {
@@ -172,7 +181,7 @@ footer {
 }
 
 .consultorio {
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   color: rgb(190, 22, 64);
 }
@@ -196,22 +205,24 @@ iframe {
 .cuadro2 {
   text-align: center;
   background: radial-gradient(ellipse 250px 100px, #a875ac, #b66450);
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .cuadro3 {
   text-align: center;
 }
 
-.enviar, .borrar {
+.enviar,
+.borrar {
   background-image: linear-gradient(to left, #e96443, #904e95);
   padding: 10px 10px;
   border-radius: 6px;
   border: none;
-  color: #fafafa;
+  color: aliceblue;
   cursor: pointer;
 }
-.enviar:active, .borrar:active {
+.enviar:active,
+.borrar:active {
   transform: translateY(5px);
 }
 
@@ -247,6 +258,14 @@ iframe {
   color: aliceblue;
 }
 
+.midiendo {
+  width: 270px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .conoceme {
   background: linear-gradient(rgba(5, 7, 12, 0.7), rgba(5, 7, 12, 0.7)), url(../imagen/verduras.webp);
   background-size: cover;
@@ -258,8 +277,8 @@ iframe {
 /* BODY */
 h1 {
   background: linear-gradient(to right, orange, #3b031a);
-  font-size: 60px;
-  color: bisque;
+  font-size: 50px;
+  color: aliceblue;
   margin-bottom: 3%;
   margin-top: 0%;
   text-align: center;

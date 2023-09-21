@@ -37,7 +37,7 @@ a {
 .tipos {
     background: $background, url(../imagen/manzana.jpg);
     background-size: 10%;
-    opacity: $opacity;
+    opacity: 0.9;
     padding: $padding;
 }
 
@@ -64,6 +64,15 @@ a {
     font-size: $font-size;
     color: rgb(159, 243, 243);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carla {
+    width: 270px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
 }
 
 .imagenes:hover {
