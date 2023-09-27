@@ -95,6 +95,11 @@ a {
   object-fit: cover;
 }
 
+@media (max-width: 767px) {
+  #carouselExample {
+    display: none;
+  }
+}
 /* FOOTER */
 footer {
   background: linear-gradient(rgba(255, 132, 228, 0.5), rgba(5, 7, 12, 0.5));
@@ -120,11 +125,15 @@ footer {
   font-size: 10px;
 }
 
+.padreLogo {
+  position: relative;
+}
+
 .logowhat {
   width: 150px;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 0px;
+  right: 0px;
   cursor: pointer;
 }
 
