@@ -89,6 +89,12 @@ a {
   filter: grayscale(90%);
 }
 
+.galeria {
+  height: 400px;
+  width: 600px;
+  object-fit: cover;
+}
+
 /* FOOTER */
 footer {
   background: linear-gradient(rgba(255, 132, 228, 0.5), rgba(5, 7, 12, 0.5));
